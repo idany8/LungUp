@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "796091064374",
+    "firebase_url": "https://lungup-b48cf.firebaseio.com",
+    "project_id": "lungup-b48cf",
+    "storage_bucket": "lungup-b48cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796091064374:android:8af0123f14481661",
+        "android_client_info": {
+          "package_name": "com.example.idan.lungup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796091064374-ghb77tog6usnde1pc9fd8i6n54s3mhvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF_ddVSLhxkDivnwe7kWHQZIDAMMzGIS0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
