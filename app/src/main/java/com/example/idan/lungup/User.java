@@ -30,4 +30,8 @@ public class User {
         this.name = name;
     }
 
+    public String toString(){
+        return "User -> \nname: "+ name + "\nemail: " + email;
+    }
+
 }

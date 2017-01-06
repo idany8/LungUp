@@ -13,32 +13,36 @@
 
     <Button
         style="@style/MyButton"
-        android:text="Patients Report"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:id="@+id/btn_pat_reports"
-        android:layout_below="@+id/btn_pat_select"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        style="@style/MyButton"
-        android:text="Select Patient"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="192dp"
-        android:id="@+id/btn_pat_select"
-        android:elevation="0dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        style="@style/MyButton"
         android:text="Create New Patient"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_gt_create_new_pat"
-        android:layout_marginBottom="74dp"
-        android:layout_alignBottom="@+id/btn_pat_select"
+        android:id="@+id/btn_create_new_pat"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:hint="Name"
+        android:ems="10"
+        android:id="@+id/et_name"
+        android:layout_marginTop="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn_create_new_pat" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:ems="10"
+        android:layout_below="@+id/et_name"
+        android:layout_alignStart="@+id/et_name"
+        android:layout_marginTop="22dp"
+        android:id="@+id/et_mail"
+        android:hint="E-Mail"
+        />
+
 </RelativeLayout>

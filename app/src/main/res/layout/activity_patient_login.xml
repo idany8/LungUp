@@ -11,11 +11,29 @@
     tools:context="com.example.idan.lungup.PatientLoginActivity">
 
     <TextView
-        android:text="Patient"
+        android:text="Type Your Access Code"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="192dp"
-        android:id="@+id/textView" />
+        android:layout_marginTop="168dp"
+        android:id="@+id/tv_type_your_code" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/et_patient_code"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_type_your_code"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_patient_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/btn_ok_code" />
 </RelativeLayout>
