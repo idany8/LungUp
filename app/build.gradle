@@ -26,6 +26,7 @@ dependencies {
     compile 'com.google.firebase:firebase-database:10.0.1'
     compile 'com.android.support:design:25.0.0'
     testCompile 'junit:junit:4.12'
+    compile 'com.liulishuo.magicprogresswidget:library:1.0.9'
 }
 
 apply plugin: 'com.google.gms.google-services'

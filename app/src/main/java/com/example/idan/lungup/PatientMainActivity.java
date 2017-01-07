@@ -1,8 +1,10 @@
 package com.example.idan.lungup;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -46,6 +48,21 @@ User usr = new User();
 
             }
 
+        });
+
+        findViewById(R.id.btn_gt_init).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PatientMainActivity.this,InitActivity.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.btn_gt_game).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PatientMainActivity.this,SpinActivity.class);
+                startActivity(intent);
+            }
         });
     }
 }

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">LungUp</string>
     <string name="title_activity_care_provider_login">CareProviderLoginActivity</string>
+    <string name="msg_mic_error">Sorry, Unable to open MIC !!</string>
 </resources>
