@@ -204,7 +204,8 @@ private boolean flagButton=true;
             if (arr[0] + 8000 > 32000) {
                 return arr[1] - 8000;
             } else
-                return arr[0] + 8000;
+            //+8000
+                return arr[0] + 200;
         }
     }
 }
